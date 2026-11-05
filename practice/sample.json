@@ -1,0 +1,56 @@
+{
+  "company": {
+    "name": "Tech Solutions Pvt Ltd",
+    "location": "Bangalore",
+    "established": 2010,
+    "departments": [
+      {
+        "name": "Engineering",
+        "employees": [
+          {
+            "id": 101,
+            "name": "Alice Johnson",
+            "role": "Software Engineer",
+            "skills": ["Java", "Python", "AWS"],
+            "full_time": true
+          },
+          {
+            "id": 102,
+            "name": "Bob Kumar",
+            "role": "DevOps Engineer",
+            "skills": ["Docker", "Kubernetes", "Linux"],
+            "full_time": false
+          }
+        ]
+      },
+      {
+        "name": "Marketing",
+        "employees": [
+          {
+            "id": 201,
+            "name": "Priya Sharma",
+            "role": "Marketing Manager",
+            "skills": ["SEO", "Content Writing", "Social Media"],
+            "full_time": true
+          }
+        ]
+      }
+    ],
+    "products": [
+      {
+        "id": "P001",
+        "name": "Cloud Management Suite",
+        "price": 499.99,
+        "currency": "USD",
+        "available": true
+      },
+      {
+        "id": "P002",
+        "name": "AI Analytics Platform",
+        "price": 899.99,
+        "currency": "USD",
+        "available": false
+      }
+    ]
+  }
+}
